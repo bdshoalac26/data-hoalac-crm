@@ -2,6 +2,7 @@
   "name": "data-hoalac-api",
   "main": "worker.js",
   "compatibility_date": "2026-06-26",
+
   "d1_databases": [
     {
       "binding": "DB",
