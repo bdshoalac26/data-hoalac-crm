@@ -1,0 +1,12 @@
+{
+  "name": "data-hoalac-api",
+  "main": "worker.js",
+  "compatibility_date": "2026-06-26",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "data-hoalac-db",
+      "database_id": "85044e63-a0ce-4e2b-9255-eebdd2a5ef7a"
+    }
+  ]
+}
