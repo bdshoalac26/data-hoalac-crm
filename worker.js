@@ -1,9 +1,12 @@
 export default {
   async fetch(request, env) {
+    const result = await env.DB
+      .prepare("SELECT datetime('now') as time")
+      .first();
+
     return Response.json({
       ok: true,
-      message: "CRM API is running",
-      database: env.DB ? "Connected" : "Not connected"
+      database: result
     });
   }
 }
